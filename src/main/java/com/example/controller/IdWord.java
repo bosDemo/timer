@@ -9,6 +9,9 @@ public class IdWord {
             String idStr = IdWorkerUtilss.getIdStr();
             System.out.println(idStr);
         }
-
+        for (int i=1;i<100;i++){
+            String idStr = IdWorkerUtilss.getIdStr();
+            System.out.println(idStr+1);
+        }
     }
 }
